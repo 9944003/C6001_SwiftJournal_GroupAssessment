@@ -1,0 +1,254 @@
+ ### COMP6001 GUI PROGRAMMING SEMESTER 17B
+#### Assessment 2 Milestone 1: Monday September 11th, 2017 @ 4pm
+# Tools: GitHub 
+### By: Amber Johnsen 9944003 
+
+#### Branch: feature/search
+#### Main Repo: https://github.com/mattcollie/COMP6001-17B-SWIFT.git
+## INTRODUCTION
+A selection of tools to provide a flexible *[SDI]: Software Defined Infrastructure to collaborate as a team and individually to quickly configure and / or program our Application.  
+Given the role of developing the Search page. During our meeting we all contributed to the design of wireframes for our app. Matt was at the computer and we all contributed. Confirming screen sizes, using our previous research to determine the functionality of each page, using best practices and more importantly designing each wireframe with 'what the user expects to happen' as our main focus. Using draw.IO, Ashton had his iPhone which I found useful to visualize my ideas has I was contributing them. Geoff is very knowledgeable and answered many of my questions. Cody was also very good at contributing ideas, and confirming which ones to keep. I contributed a lot of the 'best practice' ideas, I felt we all equally contributed to the design and functionality. I was brought up to speed as it was my first team meeting. I will be developing the search page as per our wireframes. The search page originally was going to offer more functionality such as editing, we had agreed that this would now be another screen. In relation to GitHub being one of the composable We have a set of micro services and mesh applications combined for our app functionality. Composable services. I found this definition of composable services dictionary.com;
+Composable services
+: verb (used with object), composed, composing.
+1.	to make or form by combining things, parts, or elements: He composed his speech from many research notes.
+2.	to be or constitute a part or element of: a rich sauce composed of many ingredients.
+3.	to make up or form the basis of: Style composes the essence of good writing.
+4.	to put or dispose in proper form or order: to compose laws into a coherent system. 5.Art. to organize the parts or elements of (a picture or the like).
+5.	to create (a musical, literary, or choreographic work).
+6.	to end or settle (a quarrel, dispute, etc.): The union and management composed their differences.
+All these definitions (including the sentence examples) are relevant use definitions they are all reasons for Team Shwifty, selected.
+GitHub is an example of a composable service to make or take form using collaborations including parts of code, things each team member adds in accordance with team repository set up. Is considered and combined by authorized personal.
+As team, we are contributing ‘part or element’ of project and app code. Forming / making up the basis of the ability to work on versions of the latest code.
+Definition 4 has the example ‘to compose laws into a coherent system’ and the ability to check off tasks, relate them to a Trello to do list puts GitHub under this definition. Doing the things in the right order. 5 and 6 both relate to art and creativity, taking away mundane repetitive code tasks, offering the open source clone able code that can be created upon and added to.
+Definition 7 also relates to GitHub with the functionality of the issues tab of which team members can paste code, questions to the team or specific members (collaborators) with a notification, option to let continuation happen after the issue has been solved. All designed to utilize cloud, data and *[AI]: Artificial Intelligence. *[API]’s: Application Platform Interfaces for topic specific third party data sources, these selectable data sets become available for day to day business processes. Also, Sensor data, continual stream of data intake. These provide software developers with editable data in mass amounts. All make changes to the business process.
+To plan and develop we need to use the best mix of these tools with the right amount of understanding of each tool to make them beneficial.
+
+
+
+## GITHUB 
+#### Git – Definition 
+Version Control Service, to be able to add to work and build on work as a team, have all authors and versions recorded.  
+### GitHub Why?
+Open source – democratization of IT.  GitHub is an open source Version Control System. It has over 20 million developers making it the biggest community of online developers. Can allow administrative rights, linking to Trello our Project Management Platform and Slack our Communication Platform. 
+Allows an artist’s to be free of ‘mundane and repetitive tasks’ can build on a previous version.  
+All designed to utilize cloud, data and *[AI]: Artificial Intelligence.  We have a set of microservices and mesh applications combined for our app functionality.  Composable services.
+*[API]’s: Application Platform Interfaces for topic specific third party data sources, these selectable data sets become available for day to day business processes.  Also Sensor data, continual stream of data intake.  These provide software developers with editable data in mass amounts.
+  *[AI]: Artificial Intelligence is from speech to text to now deep learning, everything.  All make changes to the business process
+
+To plan and develop we need to use the best mix of these tools with the right amount of understanding of each tool to make them beneficial.  
+
+Research into all the tools we are using was very beneficial.  I have included my notes below.  I delved into using the process we are utilizing in an enterprise environment.  Very interesting that it is useful to plan and use a 'Tool Chain' from apps like ours with a team of 5 and in large organisations such as IBM where they have 100,000 developers using GiutHub.  The team offers very different and useful skills.  I found that my research skills are usefull to contribute.  The knowledge of programming and what users 'expect' is strong.  I contributed a lot with my knowledge of best practice.  Our understanding of C# 6.0 helps as swift is similar in construction as a laungage.  
+
+### GitHub Step By Step Collaborate
+•	Use pull requests whenever possible. Direct commits to master are acceptable only for trivial changes.
+•	Use separate branches for each enhancement or fix you're working on, unless the circumstances dictate otherwise.
+•	Give the branches appropriate names, e.g. fix/238 (where 238 is the issue number) or ehn/my-awesome-feature.
+•	DO NOT merge new commits from master to your branches: either rebase your branches to master or wait till the final merge into master.
+#### Short step-by-step (ILIEV, 2016)
+1.	Fork the repo you want to contribute to into your account.
+2.	git clone https://github.com/youraccount/forkedrepo (q.v. git clone)
+3.	git remote add upstream https://github.com/ideaconsult/forkedrepo (optional, see Rebasebelow, q.v. git remote)
+4.	git checkout -b enh/coolfeature (q.v. git checkout, git branch, in GitHub)
+5.	Make your commits.
+6.	Rebase (optional, but highly desirable unless circumstances dictate to use merge):
+i.	git fetch upstream master
+ii.	git rebase -i upstream/master
+iii.	Use the appropriate commands for each of your commits. In particular, you may want to squash/fixup commits that had only been intermediate stages. Remember that rebase rewrites the branch history! (q.v. git rebase, squash et al.)
+iv.	git push -u origin enh/coolfeature (note that you MUST push to your forked repo, not to the original one you forked from; q.v. git push, git remote)
+v.	Create a pull request for the original repo from your newly pushed branch.
+vi.	If necessary, continue pushing commits to that branch, while rebasing if master is updated, until the pull request is accepted.
+#### GitHub Useful Features 
+-	Built-in tagging system: Allows you to organize and prioritize your workflow and to easily search through projects for relevant information.
+-	Milestones: Perfect for associating issues with specific features or project phases, such as bugs that need to be fixed before a beta launch or tasks to be completed in October.
+-	Multi assignments: Issues can be assigned to users in bulk, saving time and making you more efficient.
+-	Commenting: Engineers and management teams can easily discuss progress and results at every step of the way using the inbuilt commenting system.
+-	Task lists: Larger issues can be broken down into stages to discourage the creation of dozens of microscopic issues, keeping all of your work in the same place.
+-	Markdown format: The ability to use markdown formatting will prove popular with your developers, and it can be used in most places around GitHub.
+-	Project boards: These can be used to house issues, pull requests and notes, categorizing them as cards in columns of your choosing so you can look at larger projects as a whole.
+-	High security: You can trust GitHub to keep your data safe, and it’s harder to breach than most other project management systems.
+
+
+## Glossary  
+
+Software-defined infrastructure (SDI) 
+: is the definition of technical computing infrastructure entirely under the control of software with no operator or human intervention. It operates independent of any hardware-specific dependencies and is programmatically extensible.
+https://en.wikipedia.org/wiki/Software-defined_infrastructure    
+
+Compose  
+: verb (used with object), composed, composing.
+1.
+to make or form by combining things, parts, or elements:
+He composed his speech from many research notes.
+2.
+to be or constitute a part or element of:
+a rich sauce composed of many ingredients.
+3.
+to make up or form the basis of:
+Style composes the essence of good writing.
+4.
+to put or dispose in proper form or order:
+to compose laws into a coherent system.
+5.
+Art. to organize the parts or elements of (a picture or the like).
+6.
+to create (a musical, literary, or choreographic work).
+7.
+to end or settle (a quarrel, dispute, etc.):
+The union and management composed their differences.    
+http://www.dictionary.com/browse/composable     
+
+
+Software Defined Infrastructure  
+
+John Comas Application Life Cycle development software integration and design, dev ops
+
+Dev ops a relatively new area
+Dev Ops
+:  Software development and System Integrations combined using agile ideologies.
+: Continuous integration, delivery, testing, feedback, monitoring  
+
+:> DevOps bridges the gap between software creation and its use, with particular focus on the steps to get software built and deployed As defined on the Microsoft Developer Site, Visual studio ALM Rangers
+*[ALM]: Application Lifecycle Management
+Commit code, merge with main line multiple times during development, each builds, testing the same each time, feedback, real time monitoring – alert team of issues 
+Dev Ops tools and practices gives the ability to align with business strategy, be agile, keep up with competitors,
+Code quality, speed, efficiency, saving money, uniting the quality insurance, technology operations and software development all lined up
+Provide comprehensive, best empowered and enabled App in accordance to Assessment requirements.
+
+Dev Ops for enterprise result in ease of mergers.
+Agile Project Management
+Source Code Management
+Build/Deploy Automation
+Unit Testing/QA Automation
+
+Then ….
+Release Automation
+Continuous Testing / Shift left testing
+testing environments in the cloud 
+
+Then…..
+Then Cloud awareness
+DevOps Mobile
+Containerization docker, Couper netties, swarm
+Continuous Risk Assessment *[CRA] Detect the risk of a deployment related risk way back at the developer stage.
+
+All remotely, from smart phones. 
+
+IBM Security Access Manager Suite 
+: 2.5 weeks down to *20 MINS* Reduced app deployment time  
+Sky tap build 50 *[VM]’s: Virtual Machine’s IN THE CLOUD 
+: reduced execution time from 6 to 8 weeks to 3 hours    
+Containerization
+: The containers for deployment and orchestration  
+
+Aligning technology with the business strategy delivering faster than ever, making our application owners and business counter parts happy.
+
+Using this new take on the *[SDLC]: Software Development Lifecycle.  Implementing DevOps *[SDLC]
+
+Dave Lindquist, C/J Paul, Michael Elder
+DevOps Enterprise IBM 
+DevOps speed, accelerate innovation, user experience delivery
+Garage method-recognised by devops.com as the most innovative approach 2016
+Innovate like a start-up while scaling like an enterprise
+Organisational culture is at the heart of the organisation, quick cycle time code commit to production
+HOW QUICKLY CAN YOU GET AN IDEA INTO PRODUCTION?
+IBM Design thinking can help transform into something real, them use practices hours and days for production, empowering the team-now team is responsible and accountable for the deliverable
+Process with atomisation – toolchains
+Practices, architectures – how to build for the cloud and inject the latest technologies, scaling form the simple to the enterprise grade app can be challenging but this covers scaling in these architectures – with sample codes and examples and food chains
+The latest practices, atomisation, large enterprise options on the cloud
+The tool chains and ongoing management – how to accelerate the action
+Think code deliver
+Collaborations, monitoring, testing, git repository continuous integration pipeline and IDE 
+Tools for each dimension.  Everything that is important to them and allowing them to be the model -alll managed in source code, used to take days now it is just minutes
+
+Standardize these microservices
+Can create tool chains to monitor the tool chain.  
+Support your tools in an open tool chain in a combination of open source and IBM with your apps and third-party tools 
+In the past configuration management wasn’t monitored, multiple technology stacks, errors
+Different pipelines in different stages of development
+Developer up late causes a regression
+Promotes Rapid incremental changes 
+Helps course correct easily in event of failures
+Building our chains integration with source
+Slack to keep in contact with team
+We can see a failure in the chain
+Prompt lets team know there is a problem automated alerts the developer in slack and shows where in program issue is ‘traceability form git commit to deployment 
+Every enterprise has their own set of steps
+Can now do this end to end process in automation
+We can integrate urban code deploy along with micro services 
+
+Standards are integrated for engineers
+Event management
+Automation
+Application security standards
+Production and automation instructions in same source code
+If performance or availability issue can see it
+Security and compliance on the cloud security has to be built in automatically to run with code 
+Automated now. Security scanning tools, vulnerability containers, if issues there are blocks controlled by DevOps insights to ensure continuous security and availability
+Cloud native and hybrid cloud applications
+Applying Cognitive to dev ops Next wave
+Machine learning to provide insights across the life cycle 
+The obvious places to put these technologies 
+Once going faster and deploying many times a day – need for continuous testing and the code base getting 
+Automated deployment risk analysis 
+Automatically assess automated deployment risk
+Understanding where problems might be emerging the right coverage, is it dropping, are security scans not happening when they should be happening, security test.  Code coverage unit test security results
+Brought together and provide insights
+Automated started gates to ensure your strategies being met
+Predict error prone commits and code issues
+Error prone files detected due to the past analysis
+Additional code reviews to happen, where you might need additional use cases to be created, skill shortages
+Social coding graphs – understand the interactions between your community, visualise interactions, who are your code contributors, who is refactoring someone else’s code, who is in you wider code in the extended community. Too much code being refactored amongst teams, then you can see if you are organised correctly-maybe reorganise teams or re-organise the code.
+Do you have the right architectural separation between components?
+Can understand the interactions of the development team with the code, can help developers shift the best product they can
+
+There is also delivery insights analysis against successful deployments against failed ones. The cognitive to dev ops Is being developed.
+
+Garage method source for enterprise app dev
+Scale DevOps scaled
+Cognitive applied across cloud  
+
+Improve and continual improve the methods used. up to speed with the technologies faster
+Developer journeys, code starters, can get your team and deploy your method to solve these problems you have take the machine the method and mastery to put hands on keyboards.  For developer’s cloud data and AI, containers visualisations, how to take hybrid and content to cloud, industry specific chat bots.  
+Architecture 
+Developer.ibm.com/architecture
+/courses/learning-paths
+Ibm.com/cloud/-computing/bluemix/garage
+678
+Download event app IBMers open source
+Master Machine Technology and the Method for the next level of innovation Computer Science Artistry
+
+
+Toolchain and Git
+IBM Interconnect 2017 GITHUB
+Mike Filosa GitHub  
+Bluemix and can leverage GitHub enterprise
+And GitHub
+IIBM Developers using GitHub enterprise use GitHub – 100,000 developers using it from IBM 
+40 million repositories
+Approaching 20 million users Community.  The movement of open source is the culture, people involved in process, opening discussions and developing.
+Git pioneered the based on open source platform but that sometimes people don’t want to be deploying on open source so GitHub for business would allow businesses to have private repositories it is same open source model can create your own organisations that will be open source for the organisation but not the public
+Can use the administrative access rights you want.  
+They have a community team that attends all the open source events and keep that community open, projects and open source and electron that we contribute and gets us and keeps us in the community and then a team that manage those relationships.
+Workflows that are made possible – still not in main frame developers – wanting to move into version control.
+
+
+
+
+
+Amber has been given the role of developing the Search page. During our meeting we all contributed to the design of wireframes for our app. Matt was at the computer and we all contributed. Confirming screen sizes, using our previous research to determine the functionality of each page, using best practices and more importantly designing each wireframe with 'what the user expects to happen' as our main focus. Using draw.IO, Ashton had his iPhone which I found useful to visualize my ideas has I was contributing them. Geoff is very knowledgeable and answered many of my questions. Cody was also very good at contributing ideas, and confirming which ones to keep. I contributed a lot of the 'best practice' ideas, I felt we all equally contributed to the design and functionality. I was brought up to speed as it was my first team meeting. I will be developing the search page as per our wireframes. The search page originally was going to offer more functionality such as editing, we had agreed that this would now be another screen. In relation to GitHub being one of the composable We have a set of microservices and mesh applications combined for our app functionality. Composable services. I found this definition of composable services dictionary.com;
+
+Composable services
+: verb (used with object), composed,composing.
+to make or form by combining things, parts, or elements: He composed his speech from many research notes.
+to be or constitute a part or element of: a rich sauce composed of many ingredients.
+to make up or form the basis of: Style composes the essence of good writing.
+to put or dispose in proper form or order: to compose laws into a coherent system. 5.Art. to organize the parts or elements of (a picture or the like).
+to create (a musical, literary, or choreographic work).
+to end or settle (a quarrel, dispute, etc.): The union and management composed their differences.
+All these definitions (including the sentence examples) are relevant use definitions they are all reasons for Team Shwifty, selected.
+GitHub is an example of a composable service to make or take form using collaborations including parts of code, things each team member adds in accordance with team repository set up. Is considered and combined by authorized personal.
+As team, we are contributing ‘part or element’ of project and app code. Forming / making up the basis of the ability to work on versions of the latest code.
+Definition 4 has the example ‘to compose laws into a coherent system’ and the ability to check off tasks, relate them to a Trello to do list puts GitHub under this definition. Doing the things in the right order. 5 and 6 both relate to art and creativity, taking away mundane repetitive code tasks, offering the open source cloneable code that can be created upon and added to.
+Definition 7 also relates to GitHub with the functionality of the issues tab of which team members can paste code, questions to the team or specific members (collaborators) with a notification, option to let continuation happen after the issue has been solved. All designed to utilize cloud, data and *[AI]: Artificial Intelligence. *[API]’s: Application Platform Interfaces for topic specific third party data sources, these selectable data sets become available for day to day business processes. Also, Sensor data, continual stream of data intake. These provide software developers with editable data in mass amounts. All make changes to the business process.
+To plan and develop we need to use the best mix of these tools with the right amount of understanding of each tool to make them beneficial.
+
